@@ -1,0 +1,6 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:root@localhost:27017/USER_DB?authSource=admin  # Or without auth
+      # uri: mongodb://host:port/databaseName
+      auto-index-creation: true # Optional
